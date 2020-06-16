@@ -458,7 +458,7 @@
         </div>
         <ul class="landing_cost_services__list">
             <li class="landing_ii__list-li">
-                <div class="landing_ii__list-item"><!--<div class="landing_ii__list-item is-active">-->
+                <div class="landing_ii__list-item is-active"><!--<div class="landing_ii__list-item is-active">-->
                     <div class="landing_ii__list-item-lico">
                     </div>
                     <div class="landing_ii__list-item-rico">
@@ -583,40 +583,6 @@
     </div>
 </div>
 
-
-<script>
-
-    // $('landing_ii__list-item').on('click', function () {
-    //     $(this).addClass('is-active')
-    //         .siblings().removeClass('is-active');
-    // })
-
-    $(document).ready(function () {
-
-        $('.landing_ii__list-item').each(function () {
-
-            $(this).click(function (e) {
-                let nextElem = $(this).next('.is-active')
-
-                e.preventDefault(); //отменяем стандартное действие ссылки
-                $('.is-active').not(nextElem).each(function () {
-                    $(this).hide();
-                });
-
-                if (nextElem.css('display') === 'block') {
-                    nextElem.hide();
-                    return;
-                }
-
-                nextElem.fadeIn(300);
-            });
-        });
-    });
-
-</script>
-
-
-<!--<script src="js/script.js"></script>-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+<script src="js/script.js"></script>
 </body>
 </html>

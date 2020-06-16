@@ -1,10 +1,17 @@
-// let selectList = document.querySelector('.landing_ii__list-item');
+// let btn = document.querySelector('.landing_ii__list-item');
 //
-// selectList.onclick = function () {
-//     selectList.classList.add('is-active')
+// btn.onclick = function () {
+//     btn.classList.add('is-active')
 // };
-//
-// $('landing_ii__list-item').on('click', function() {
-//   $(this).addClass('is-active')
-//     .siblings().removeClass('is-active');
-// })
+
+let btn = document.querySelectorAll('.landing_ii__list-li');
+btn.forEach((el) => {
+
+    el.addEventListener('click', (e) => {
+        console.log(el)
+    })
+
+
+})
+
+
