@@ -1,23 +1,3 @@
-// let btn = document.querySelector('.is-active');
-//
-// btn.onclick = function () {
-//     if ('.is-active') {
-//         btn.classList.remove('.is-active')
-//     }
-// };
-
-// let btn = document.querySelectorAll('.landing_ii__list-li');
-// btn.forEach((el) => {
-//
-//     el.addEventListener('click', (e) => {
-//
-//         if (el.getElementsByClassName('is-active')[0] !== undefined) {
-//             el.getElementsByClassName('landing_ii__list-item')[0].classList.remove('is-active');
-//         } else {
-//             el.getElementsByClassName('landing_ii__list-item')[0].classList.add('is-active');
-//         }
-//     })
-// })
 
 let btn = document.querySelectorAll('.landing_ii__list-li');
 
@@ -41,15 +21,3 @@ btn.forEach((el) => {
         }
     })
 })
-
-// let btn = document.querySelectorAll('.landing_ii__list-li');
-// btn.forEach((el) => {
-//
-//     el.addEventListener('click', (e) => {
-//         console.log(el)
-//     })
-// })
-//
-// let e = () => {
-//     btn.classList.add(".is-active");
-// }
